@@ -2,8 +2,9 @@ package com.hzx.crud.dao;
 
 import com.hzx.crud.bean.Employee;
 import com.hzx.crud.bean.EmployeeExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface EmployeeMapper {
     long countByExample(EmployeeExample example);
